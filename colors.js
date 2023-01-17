@@ -22,3 +22,5 @@ function setSwatch(point){
     setColor(swatch.style.backgroundColor);
     swatch.className += ' active';
 }
+
+setSwatch({target: document.getElementsByClassName('swatch')[0]});
